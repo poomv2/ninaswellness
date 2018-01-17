@@ -1,0 +1,88 @@
+.main-banner {
+  padding-top: 50px;
+  background-image: url('/images/diagonal-pattern.png'), linear-gradient(45deg, $brand-lilac-color 0%, #99d9e7 100%);
+  background-color: $brand-green-color;
+
+  @include breakpoint(small) {
+    // background-image: url('/images/nina-banner-main.png'), linear-gradient(45deg, $brand-lilac-color 60%, #99d9e7 100%);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: 70px, center;
+    min-height: 500px;
+    margin-top: 80px;
+  }
+
+  img {
+    margin-top: 30px;
+    transform: rotate(-5deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  .banner-heading {
+    margin-left: 20px;
+    font-family: 'Pacifico', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    color: $white-color;
+    text-shadow: 0 5px 20px rgba(0,19,90,0.1);
+    text-transform: none;
+
+    @include breakpoint(small) {
+      font-size: 60px;
+      margin-top: 20px;
+    }
+  }
+
+  h2 {
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+    width: 75%;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-weight: $font-weight-light;
+    color: $white-color;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    @include breakpoint(small) {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    margin-left: 20px;
+    width: 420px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .37px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    @include breakpoint(small) {
+      font-size: 18px;
+    }
+  }
+}
+
+.top-bar {
+
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0 5px 40px rgba(0,0,0,0.1);
+
+  @include breakpoint(small) {
+    position: fixed;
+    top: 0;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: .5rem;
+  font-size: 18px;
+  color: $brand-green-color;
+}

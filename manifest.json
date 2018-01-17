@@ -1,0 +1,16 @@
+{
+  "cwd": "./",
+  "defaultRegistry": "npm",
+  "dest": "app/vendor/",
+  "path": "${dest}/${type}/${package}/${file}",
+  "dests": {
+    "images": "images",
+    "js": "js",
+    "css": "css"
+  },
+  "packages": {
+    "npm:jquery-match-height": {
+      "js": "jquery.matchHeight-min.js"
+    }
+  }
+}
