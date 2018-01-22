@@ -16,6 +16,12 @@
     font-size: 18px;
   }
 
+  &-reverse {
+    background-color: $white-color;
+    border-radius: 30px;
+    color: $brand-lilac-color;
+  }
+
   &-default {
     border-color: $brand-lilac-color;
     color: $brand-lilac-color;

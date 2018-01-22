@@ -17,7 +17,6 @@ h1 {
   font-size: 30px;
   letter-spacing: 3px;
   color: $brand-green-color;
-  margin-bottom: 0;
 
   @include breakpoint(small) {
     font-size: 58px;
@@ -45,7 +44,7 @@ h2 {
     letter-spacing: .5px;
 
     @include breakpoint(small) {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       line-height: 1.5;
     }
   }
@@ -58,4 +57,8 @@ h2 {
       line-height: 1.5;
     }
   }
+}
+
+p {
+  font-size: 18px;
 }

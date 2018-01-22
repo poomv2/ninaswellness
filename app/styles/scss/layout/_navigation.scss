@@ -1,6 +1,13 @@
 .site-nav {
+  display: none;
+  
+
+@include breakpoint(medium) {
+  display: flex;
   float: right;
   margin-top: 1.75rem;
+}
+
   .nav-item {
     margin-left: 2.5rem;
 
