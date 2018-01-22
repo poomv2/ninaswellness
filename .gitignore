@@ -1,4 +1,6 @@
 node_modules
 .sass-cache
 .DS_Store
+dist/
+app/scripts/app.js
 app/styles/styles.css
